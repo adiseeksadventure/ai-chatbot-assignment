@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-brand-fg antialiased;
+  }
+
+  .dark body {
+    @apply bg-brand-bg-dark text-brand-fg-dark;
+  }
+}
